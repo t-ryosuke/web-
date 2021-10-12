@@ -1,0 +1,483 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+  font-size: 15px;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color:#444444;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    height:152px;
+    margin-top:50px;
+    
+}
+
+.container{
+    width: 1040px;
+    margin: 0 auto;
+
+}
+
+.header-left{
+    float: left;
+}
+
+.gnav{
+    position: absolute;
+    left: 30px;
+}
+
+.gnav li{
+    float: left;
+    font-size: 18px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.gnav li ul{
+    position: absolute;
+    top:45px;
+    left: -5px;
+    height:0;
+    visibility: hidden;
+
+}
+ .gnav li a{
+     display:block;
+     padding-bottom: 15px;
+     
+}
+
+
+ 
+ .gnav li a:hover  {
+     color: #C49029;
+ }
+
+.gnav li li {
+    width: 200px;
+    border:solid 1px  #e6e6e6;
+    box-shadow: 0 1px 3px #ddd;
+    background-color: #fff;
+    padding:10 20 0 20;
+    opacity: 0;
+    transition: all 0.3s;
+
+}
+
+.gnav li:hover ul li {
+    visibility: visible;
+    opacity: 1;
+}
+    
+
+
+.header-left h1{
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.header-left p{
+    font-size: 18px;
+}
+
+.header-right {
+    padding-top: 48px;
+    float: right;
+    width: 760px;
+    position: relative;
+
+}
+
+.fas{
+    padding-left: 9px;
+
+
+}
+
+.search-wrapper{
+    position: relative;
+}
+
+.search{ 
+    width: 0px;
+    height: 28px;
+    background:url(虫眼鏡の無料アイコン8.png) no-repeat white;
+    background-size:27px 27px;
+    padding-left: 30px;
+    font-size: 16px;
+    float: right;
+    position: absolute;
+    right: 0;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    transition: 0.5s;
+
+
+}
+
+.search:focus{
+   width:200px; 
+   height: 25px;
+   border:1px solid #e0e0e0;
+   cursor: text;
+
+}
+
+
+.top-wrapper{
+    height: 780px;
+    /* background-color: cadetblue; */
+    width: 1034px;
+    margin: 0 auto;
+}
+
+.top-wrapper p{
+    font-size: 27px;
+    color: #777777;
+    padding-top: 90px;
+}
+
+
+.main-wrapper{
+    height: 1340px;
+    width: 1040px;
+    /* background-color:rosybrown; */
+    margin: 0 auto;
+    border-bottom:1px solid #ccc;
+}
+
+.text-box{
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.date {
+    margin-right: 230px;
+    font-size: 16.8px;
+    color:#999999;
+    width: 200px;
+    opacity: 0.5;
+    height: 40px;
+    
+}
+
+.date:hover{
+    opacity: 1;
+}
+
+.text-heading{
+    font-size: 22.4px;
+    color: #111111;
+    font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+    padding-bottom: 20px;
+}
+
+.text-heading a:hover{
+    color:#c49029 ;
+}
+
+.text{
+    font: 16,8px;
+    color: #666666;
+
+}
+
+.text-area{
+   width: 705px;
+   margin-left:200;
+}
+
+.page-list{
+    display: flex;
+    justify-content: center;
+
+}
+
+.page-list li{
+    font-size: 16.8px;
+    color: #666666;
+    font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+    border: 1px solid #ccc ;
+    padding: 8px 16px;
+    margin-right: 6px;
+    opacity: 0.5;
+}
+
+.page-list li:hover{
+    opacity: 1;
+
+
+}
+ .page-list>:nth-child(1) {
+     background-color: #eeeeee;
+     color: #333333;
+ }
+
+ .profile-wrapper{
+     height: 460px;
+     width: 1040px;
+     margin: 0 auto;
+     /* background-color:rgb(145, 145, 182); */
+     margin-top: 73px;
+     display: flex;
+     border-bottom: 1px solid #ccc;
+    }
+
+ .profile>img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile{
+    display:flex;
+    width: 275px;
+    flex-wrap: wrap;
+}
+
+.prohead{
+    height: 120px;
+}
+
+.profile-heading{
+    width: 95px;
+    font-size: 18.9;
+    color: #333333;
+    padding: 20px 0px 0px 20px;
+}
+
+.fab{
+    opacity: 0.5;
+    padding-right: 8px;
+    padding-top: 8px;
+    font-size: 25px;
+}
+
+.fab:hover{
+    opacity: 1;
+}
+
+.profile-text{
+    width: 250px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    line-height: 1.8;
+    color: #666666;
+}
+
+.sub-menu{
+display: flex;
+}
+
+.sub{
+    width: 210px;
+}
+
+.sub1{
+margin-left: 80px;
+width: 215px;
+}
+
+.sub1 p{
+    font-size: 15px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    line-height: 1.8;
+    color: #666666;
+}
+
+.sub1 h2{
+    padding-bottom: 30px;
+    color: #333333;
+}
+
+.sub2{
+    margin-left: 35px;
+}
+
+.sub2 h2{
+    padding-bottom: 30px;
+    color: #333333;
+}
+
+.sub2 a{
+    text-decoration:none;
+    border-bottom: 1px solid #666666;
+    
+}
+
+.sub2 li{
+    font-size: 15px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    color: #666666;
+}
+
+.sub2 a:hover{
+    color: #c49029;
+
+}
+
+.sub2 p{
+    padding-bottom: 10px;
+}
+
+.sub3{
+    margin-left: 105px;
+}
+.sub3 h2{
+    padding-bottom: 30px;
+    color: #333333;
+}
+
+.sub3 li {
+    font-size: 15px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    line-height: 1.8;
+    color: #666666;
+    padding-bottom: 10px;
+}
+
+.sub3 a:hover{
+     color: #c49029;
+}
+
+.sub3 a{
+    text-decoration:none;
+    border-bottom: 1px solid #999999;
+}
+
+.sub-input{
+    margin-top: 85px;
+    height: 43px;
+    width: 209px;
+    border: 1px solid #e0e0e0;
+}
+
+footer{
+    width: 1034px;
+    height: 112px;
+    margin: 60px auto;
+    display: flex;
+}
+
+.fotter-rogo{
+    margin: 0px auto;
+    font-size: 15.8;
+    color:#666666 ;
+}
+
+/* .fotter-rogo p{
+    justify-content: center;
+} */
